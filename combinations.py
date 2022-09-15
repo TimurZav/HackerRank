@@ -22,3 +22,4 @@ def combinations(iterable, r):
 
 
 print(list(combinations('ABCDSF', 4)))
+

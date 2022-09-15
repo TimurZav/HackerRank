@@ -15,3 +15,4 @@ if __name__ == '__main__':
     n = "148"
     k = 3
     print(superDigit(n, k))
+

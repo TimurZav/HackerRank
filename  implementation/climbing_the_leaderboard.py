@@ -44,3 +44,4 @@ if __name__ == '__main__':
 
     for score in player:
         print(dict_ranked[score])
+

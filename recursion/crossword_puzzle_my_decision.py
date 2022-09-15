@@ -62,3 +62,4 @@ if __name__ == '__main__':
     index_in_word = -1
     crossword = crosswordPuzzle(crossword, words, index, index_word, index_in_word, reversed=False)
     print(crossword)
+

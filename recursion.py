@@ -110,3 +110,4 @@ def Convert_10_to_2_R(n, k):
 
 res1 = Convert_10_to_2_R(126, 0)  # Вызов рекурсивной функции
 print("res1 = ", res1)
+

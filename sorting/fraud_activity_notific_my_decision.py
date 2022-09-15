@@ -26,6 +26,7 @@ if __name__ == '__main__':
                 count += 1
     print(count)
 
+
     # first_multiple_input = input().rstrip().split()
     # n = int(first_multiple_input[0])
     # d = int(first_multiple_input[1])

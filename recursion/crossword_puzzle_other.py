@@ -91,3 +91,4 @@ for _ in range(10):
     grid.append(r1)
 words = list(input().split(";"))
 crossword(grid, words, 0)
+

@@ -57,3 +57,4 @@ if __name__ == '__main__':
     simplifiedChessEngine(whites, blacks, m)
     print(knight_moves((2, 2)))
     print(bishop_moves((2, 2)))
+

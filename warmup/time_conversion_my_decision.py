@@ -20,3 +20,4 @@ if __name__ == '__main__':
     result = timeConversion(s)
     print(result)
 
+

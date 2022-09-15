@@ -50,3 +50,4 @@ for i in range(M):
 A = RotationMatrix(M, N, mat)
 A.rotate_matrix(R)
 print(A)
+
