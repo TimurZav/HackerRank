@@ -38,4 +38,3 @@ if __name__ == '__main__':
         login_attempt: str = "ophetushtrinyaiqoxrysqleliwfnytwrlgxmophetushtrwfnytwinyaiqykaxonophetushtr"
         result = password_cracker(passwords, login_attempt)
         print(result)
-
