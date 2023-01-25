@@ -34,7 +34,7 @@ if __name__ == '__main__':
     test_case: int = 1
     for _ in range(test_case):
         count_space_separated: int = 6
-        passwords: list = "bhkkwtsgx ykaxon wfnytw inyaiq ciuxrqzp hgknp ophetushtr daxmgctlw rlgxm oxrysqleli".split()
-        login_attempt: str = "ophetushtrinyaiqoxrysqleliwfnytwrlgxmophetushtrwfnytwinyaiqykaxonophetushtr"
+        passwords: list = "ylphk zzfkifd esfsnbkp ftszfcqp simdoclmcl rwya hmfndblkd waapaw ybyikf yuhhrev".split()
+        login_attempt: str = "yuhhrevyuhhrefylphzwaapawstszfcqpyuhhrevybyikfybyikfyuhhyevybyykgbsfsnykp"
         result = password_cracker(passwords, login_attempt)
         print(result)
