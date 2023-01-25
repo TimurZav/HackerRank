@@ -38,3 +38,4 @@ if __name__ == '__main__':
         login_attempt: str = "helloworld"
         result = password_cracker(passwords, login_attempt, list_iter, is_correct_password)
         print(result)
+
