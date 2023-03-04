@@ -14,9 +14,9 @@ def decode(s: str) -> str:
         # x = re.findall(r"(\d+)\[([a-z]+)]", s)
         # z = lambda m: m[0][1] * int(m[0][0])
         # print(z(x))
-        return decode(re.sub(r"(\d+)\[([a-z]+)]", lambda m: m[2] * int(m[1]), s))
+        return decode(re.sub(r"(\d+)\[([a-z]+)\]", lambda m: m[2] * int(m[1]), s))
     else:
         return s
 
 
-print(decode("ab2[c2[de]11[f]]eh"))
+print(decode("2[a2[b2[c1[vv]]]]3[x4[z]]8[k]1[n]2[r]"))

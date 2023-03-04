@@ -32,8 +32,8 @@ def main(string_test):
     test = ""
     last_nested = []
     all_nested = []
-    list_matches = re.findall(r"\d{1,100}[[][a-z]{1,100}", string_test)
-    nested_brackets = re.findall(r"\d{1,100}[[][a-z]{1,100}[]]", string_test)
+    list_matches = re.findall(r"\d+\[[a-z]+", string_test)
+    nested_brackets = re.findall(r"\d+\[[a-z]+\]", string_test)
     for match in list_matches:
         get_last_nested(match, nested_brackets, last_nested)
         get_all_nested(list_matches, nested_brackets, all_nested)
